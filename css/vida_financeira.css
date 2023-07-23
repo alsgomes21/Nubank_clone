@@ -1,0 +1,43 @@
+
+.foto_vida_financeira {
+    background-image: url("../imagens/three-women-walking-lg-3x.webp");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+}
+
+.controle_espaços {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tit_vida_financeira {
+    
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 2.5vw;
+    
+}
+
+.saiba_mais_sobre {
+    color: white;
+}
+
+.controle {
+    width: 40%;
+}
+
+.vazia {
+    width: 30%;
+}
+
+@media screen and (max-width: 576px) {
+
+    .tit_vida_financeira{
+        font-size: 1.5rem;
+    }
+
+}
+

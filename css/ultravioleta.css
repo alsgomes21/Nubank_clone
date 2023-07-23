@@ -1,0 +1,86 @@
+
+
+.ultra{
+    width: 100%;
+    background-color: rgb(245, 245, 245)
+}
+
+.img_ultra {
+    width: 50%;
+}
+
+.img_mulher {
+    width: 95%;
+}
+
+.ultra {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding-top: 10vw;
+    padding-bottom: 5vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ultravioleta {
+    width: 50%;    
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.Saiba_mais {
+    color: rgb(130, 10, 209);
+    font-weight: 600;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.tit_ultravioleta {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(130, 10, 209);
+    text-decoration: none;
+    line-height: 1.16;
+}
+
+
+.txt_ultravioleta {
+    font-size: 3rem ;
+    line-height: 1.16;
+}
+
+@media screen and (max-width: 576px) {
+
+    .ultra {
+        flex-direction: column-reverse;
+    }
+
+    .img_ultra {
+        width: 90%;
+    }
+    
+    .img_mulher {
+        width: 95%;
+    }
+
+    .tit_ultravioleta {
+        font-size: 1.8rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem ;
+
+    }
+
+    .txt_ultravioleta {
+        font-size: 1.3rem ;
+        line-height: 1.16;
+        width: 95%;
+    }
+    
+    .ultravioleta {
+        width: 90%;
+        
+    }
+
+}

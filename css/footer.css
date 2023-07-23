@@ -1,0 +1,212 @@
+.topicos_footer {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.topicos_nu { 
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+
+}
+
+.top_tops {
+    padding-bottom: 10px;
+}
+
+.top {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.top_tit {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 0.8rem;   
+    font-weight: lighter;
+    padding-bottom: 2vw;
+    
+}
+
+.top-tit {
+    padding-bottom: 2vw;
+    padding-top: 5vw;
+}
+
+.topicos_row {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    padding-left: 3vw;
+}
+
+.institucional {
+    color: white;
+}
+
+.logo_nu_vazado {
+    width: 40px;
+    height: 25px;
+    padding: 0 4vw;    
+}
+
+.logo_redes:hover {
+    color: rgb(130, 10, 209);
+}
+
+.logo_nu_vaz {
+    display: flex;
+    width: 53%;
+}
+
+.base_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20vw;
+}
+
+.logos {
+    padding-right: 3vw;
+}
+
+
+.cor {
+    color: white;
+    cursor: pointer;
+    margin-right: 3vw;
+    
+}
+
+.op_idioma {
+    padding-top: 5vw;
+    height: 10vw;
+}
+
+.position {
+    
+    width:78%
+}
+
+
+
+.logos a {
+    color: white;
+    margin-left: 2vw;
+    
+}
+
+.logos a:hover {
+    color: rgb(130, 10, 209);
+
+}
+
+.institucional {
+    line-height: 2vw
+}
+
+@media screen and (max-width: 576px) {
+
+    .topicos_nu { 
+        display: flex;
+        flex-direction:column;
+        flex: 1 1 1
+    }
+
+    .topicos_row {
+        display: flex;
+        flex-direction: column;
+        padding-left: 6vw;
+    }
+
+    .top_tit {
+        padding-top: 7vw;
+    }
+
+    .base_footer {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 2vw;
+
+    }
+    
+    .institucional {
+        line-height: 4vw;
+        padding-left: 4vw ;
+        padding-bottom: 8vw;
+        font-size: 13px;
+    }
+
+    .logo_nu_vaz {
+        width: 85%;
+        flex-wrap: wrap;
+    }
+    .logo_nu_vazado {
+        padding-bottom: 8vw;
+        padding-top: 30vw;
+    }
+    .logos a {
+        margin-left: 5vw;
+        width: 6vw;
+        height: 4vw;
+        
+    }
+
+    .logos {
+        padding-left: 5vw;
+    }
+
+    .fa-linkedin {
+        width: 30px;
+        height: 20px;
+    }
+
+    .fa-youtube {
+        width: 30px;
+        height: 20px;
+    
+    }
+
+    .fa-square-facebook {
+        width: 30px;
+        height: 20px;
+    }
+
+    .fa-square-instagram {
+        width: 30px;
+        height: 20px; 
+    }
+
+    .fa-square-twitter {
+        width: 30px;
+        height: 20px;  
+    }
+
+    .base_footer_columm {
+        display: flex;
+        flex-direction: column;
+    }
+    .position {
+        width:3%    
+}
+    .op_idioma{
+        padding-top: 25vw;
+        padding-bottom: 15vw;
+    }
+
+    .top_tit {
+        
+        padding-bottom: 6vw;
+        
+    }
+
+    
+
+    
+
+    
+}

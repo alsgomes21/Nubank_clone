@@ -1,0 +1,93 @@
+
+.contapj {
+    background-color: rgb(76, 6, 119);
+    display: flex;
+    flex-direction: row;
+    padding-top: 20vh;
+    padding-bottom: 20vw;
+    align-items: center;
+    justify-content: space-around; /*?*/
+}
+
+.conta_pj {
+    color: rgb(231, 214, 241);
+    text-decoration: none;
+    line-height: 1.16;
+    width: 30%;
+    padding-left: 3vw;
+}
+
+.conta_pj_link { 
+    text-decoration: none;
+}
+
+.tit_conta_pj {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 1.16;
+}
+
+.txt_conta_pj {
+    font-size: 2.8rem ;
+    line-height: 1.16;
+}
+
+.Saiba_mais_branco {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-top: 40px;
+    font-size: 1.125rem;
+}
+
+.img_homem_sorrindo {
+    width: 30%;
+}
+
+.img_homem_sorrindo_inside {
+    width: 80%
+}
+
+@media screen and (max-width: 576px) {
+
+    .contapj{
+        
+        flex-direction: column-reverse;
+        width: 100%;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+        }
+
+    .conta_pj {
+        width: 90%;
+    }
+    
+    .tit_conta_pj {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+        }
+    
+    .txt_conta_pj {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        width: 90%;
+        
+    }
+    
+    .img_homem_sorrindo {
+        width: 90%;
+        
+    }
+    
+    .img_homem_sorrindo_inside {
+        width: 95%;
+    }
+    
+    .texto_conheca {
+        width: 100%;
+        margin-left: 105px;
+         
+    }
+    }

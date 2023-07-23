@@ -1,0 +1,15 @@
+@font-face {
+    font-family: GraphikMedium;
+    src: url("/fontes/GraphikMedium.otf");
+}
+
+body{
+    font-family: "GraphikMedium";
+}
+
+
+
+.flex {
+    display: flex;
+}
+

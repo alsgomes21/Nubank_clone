@@ -1,0 +1,163 @@
+
+
+main {
+    padding-top: 60px;
+}
+
+.main_foto_bg{
+    background-image: url("../imagens/1664201099-home-nubank.webp");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.main_flex {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15vw;
+    padding-bottom: 10vw;
+}
+
+.texto_main{
+    width: 45%;
+    padding-top: 3vw;
+    padding-bottom: 5vw;
+      
+}
+
+.texto_main h1 {
+    font-size: 4.2vw;
+    color: white;
+}
+
+.texto_main h5 {
+    font-size: 2.2vw;
+    color: white;
+    padding-top: 2vw;
+
+}
+
+.flex_cpf{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_cpf {
+    width: 20%;
+    background-color: white;
+    border-radius: 5%;
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+    margin-bottom: 5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    
+}
+
+.main_cpf h5 {
+    font-size: 1.7vw;
+    margin-bottom: 5vw;
+}
+
+.busca_cpf {
+    font-size: 1.0vw; /* como alterar a fonte sem alterar a linha ?*/
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gray;
+    width: 100%;
+}
+
+.continuar {
+    background-color: rgb(17, 17, 17, 0.1);
+    color: rgb(17, 17, 17, 0.2);
+    border-radius: 6.25rem;
+    margin-top: 3vw;
+    width: 100%;
+    border: none;
+    font-size: 2vw;
+    padding-top: 1vw ;
+    padding-bottom: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    justify-content: space-between;
+    }
+
+.continuar_font {
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 576px) {
+
+    .main_geral {
+        width: 100%;
+    }
+    
+    .main_foto_bg{
+        background-image: url("../imagens/1664201099-home-nubank.webp");
+        width: 90%;
+    }
+    
+    .main_flex {
+        align-items:center;
+        flex-direction: column;
+    }
+  
+    .texto_main {
+        width: 90%;
+        flex-direction: column;
+        margin-top: 15vw;
+        
+    }
+    .texto_main h1 {
+        font-size: 4.2vw;
+        color: white;
+    }
+    
+    .texto_main h5 {
+        font-size: 2.3vw;
+        color: white;
+        padding-top: 2vw;
+    
+    }
+
+    .main_cpf {
+        width: 38%;
+        padding-bottom: 4.5vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .main_cpf h5 {
+        font-size: 2.2vw;
+        width: 90%;
+        margin-bottom: 10vw;
+        line-height: 2.5vw;
+    
+    }
+
+    .busca_cpf {
+        font-size: 2.0vw; /* como alterar a fonte sem alterar a linha ?*/
+        
+    }
+
+    .continuar {
+        
+        margin-top: 5vw;
+        font-size: 3vw;
+        padding-top: 1.5vw ;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .continuar_font {
+           
+        font-size: 2vw;
+        padding-bottom: 1vw;
+        margin-left: 1.2vw;
+    }
+
+
+
+}

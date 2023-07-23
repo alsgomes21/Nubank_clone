@@ -1,0 +1,337 @@
+@font-face {
+    font-family: GraphikMedium;
+    src: url("/fontes/GraphikMedium.otf");
+}
+
+header{
+    width: 100%;
+}
+
+body{
+    font-family: "GraphikMedium";
+}
+
+main {
+    padding-top: 60px;
+}
+
+.flex {
+    display: flex;
+}
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.cabecalho_central{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+    padding: 0 20px 0 20px;
+    width: 100%;
+}
+
+.nu_logo {
+    width: 100px;
+    height: 80px;
+}
+
+.cab2 {
+    display: flex;
+    align-items: center;
+}
+
+.topicos {
+    display: flex;
+}
+
+.topicos_item {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    width: max-content;
+}
+
+.fonte_top{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    font-size: 20px;    
+}
+
+.login_letra {
+    text-decoration: none;
+    color: rgb(130, 10, 209);
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+
+.main_foto_bg{
+    background-image: url("./imagens/1664201099-home-nubank.webp");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto_main{
+    width: 60%;
+    margin-left: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    
+}
+
+.texto_main h1 {
+    font-size: 5vw;
+    color: white;
+    
+    
+}
+
+.texto_main h5 {
+    font-size: 2.4vw;
+    color: white;
+}
+
+.flex_cpf{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_cpf {
+    width: 30%;
+    height:20%;
+    background-color: white;
+    border-radius: 5%;
+    padding-top: 3vw;
+    padding-bottom: 5vw;
+    margin-bottom: 10vw;
+    padding-left: 3vw;
+    
+}
+
+.main_cpf h5 {
+    font-size: 2vw;
+    margin-bottom: 5vw;
+}
+
+.busca_cpf {
+    font-size: 2vw;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gray;
+}
+
+.continuar {
+    background-color: rgb(17, 17, 17, 0.1);
+    color: rgb(17, 17, 17, 0.2);
+    border-radius: 6.25rem;
+    font-size: 3vw;
+    margin-top: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 25vw;
+    border: none;
+    font-size: 2vw;
+    padding-top: 1vw ;
+    padding-bottom: 1vw;
+    justify-content: space-between;
+    }
+
+.texto_conheca_fotos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 10vw;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 7vw;
+}
+
+.texto_conheca {
+    max-width: 45%;
+   
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.conheca_fotos {
+    width: 50%;
+    
+}
+
+.img_homemcelular {
+    width: 95%
+   
+}
+
+
+.conheca_h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(130, 10, 209);
+}
+
+.conheca {
+    text-decoration: none;
+}
+
+.roxinho {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+.ultra{
+    width: 100%;
+    background-color: rgb(245, 245, 245)
+}
+
+.img_ultra {
+    width: 50%;
+}
+
+.img_mulher {
+    width: 95%;
+}
+
+.ultra {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding-top: 10vw;
+    padding-bottom: 5vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ultravioleta {
+    width: 50%;    
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.Saiba_mais {
+    color: rgb(130, 10, 209);
+    font-weight: 600;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.tit_ultravioleta {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(130, 10, 209);
+    text-decoration: none;
+    line-height: 1.16;
+}
+
+
+.txt_ultravioleta {
+    font-size: 3rem ;
+    line-height: 1.16;
+}
+
+.conta {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10vw;
+    padding-bottom: 5vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.tit_conta {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(130, 10, 209);
+    text-decoration: none;
+    line-height: 1.16;
+}
+
+.txt_conta {
+    font-size: 3rem ;
+    line-height: 1.16;
+}
+
+.conta_nu {
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.conta_nubank {
+    text-decoration: none;
+}
+
+.img_display {
+    width: 50%;
+}
+
+.img_celular {
+    width: 95%
+}
+
+.contapj {
+    background-color: rgb(76, 6, 119);
+    display: flex;
+    flex-direction: row;
+    padding-top: 30vw;
+    padding-bottom: 30vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    align-items: center;
+    justify-content: space-around; /*?*/
+}
+
+.conta_pj {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(231, 214, 241);
+    text-decoration: none;
+    line-height: 1.16;
+}
+
+.conta_pj_link { 
+    text-decoration: none;
+}
+
+.tit_conta_pj {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 1.16;
+}
+
+.txt_conta_pj {
+    font-size: 3rem ;
+    line-height: 1.16;
+}
+
+.Saiba_mais_branco {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-top: 40px;
+    font-size: 1.125rem;
+}
+
+.img_homem_sorrindo {
+    width: 50%;
+}
+
+.img_homem_sorrindo_inside {
+    width: 95%
+}
+

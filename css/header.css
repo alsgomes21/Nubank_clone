@@ -1,0 +1,83 @@
+
+.flex {
+    display: flex;
+}
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.cabecalho_central{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+    padding: 0 20px 0 20px;
+    width: 100%;
+}
+
+.nu_logo {
+    width: 100px;
+    height: 80px;
+}
+
+.cab2 {
+    display: flex;
+    align-items: center
+}
+
+.topicos {
+    display: flex;
+}
+
+.topicos_item {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    width: max-content;
+}
+
+.fonte_top{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    font-size: 20px;    
+}
+
+.login_letra {
+    text-decoration: none;
+    color: rgb(130, 10, 209);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+    
+    .cab2 {
+        display: flex;
+        
+        justify-content: center;
+        
+        flex-direction: column;
+    }
+    #cabecalho {
+        align-items: center;
+        position:relative;
+        flex-direction: column;
+        
+        
+    }
+    .cabecalho_central {
+        flex-direction: column;
+        height: 220px;
+    }
+    .topicos_item{
+        flex-direction: column;
+    }
+
+
+}

@@ -1,0 +1,70 @@
+
+
+.foto_community {
+    background-image: url("../imagens/three-young-people-outdoors-leaning-against-the-wall-lg-comunity3x.webp");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+}
+
+
+.controle {
+    width: 39%;
+}
+
+.controle_espaços {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 5vw;
+    align-items: center;
+    height: 100%;
+    
+    
+}
+
+.tit_community {
+    
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 1vw;
+    
+    
+}
+
+.txt_community {
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 2.5vw;
+}
+
+
+.vazia {
+    width: 30%;
+    
+    
+}
+
+@media screen and (max-width: 576px) {
+
+    .tit_community{
+        font-size: 1.5rem;
+    }
+    
+    .txt_community{
+        font-size: 1.5rem;
+    }
+
+    .vazia {
+        width: 5%;
+    }
+    .controle {
+        width: 70%;
+    }
+    .controle_espaços {
+        padding-left: 10vw;
+        
+    }
+
+}
