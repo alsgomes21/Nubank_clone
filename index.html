@@ -18,17 +18,28 @@
     <link rel="stylesheet" href="./css/footer.css">
     <title>Nubank - Finalmente você no controle do seu dinheiro </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
 <header id="cabecalho">
     <div class="cabecalho_central">
         <div class="cab2">
-            <div class="logo">
-                <img class="nu_logo" src="./imagens/nubank-logo.png" alt="logo">
+            <div class="cab_mobile_flex">
+                <div class="logo">
+                    <img class="nu_logo" src="./imagens/nubank-logo.png" alt="logo">
+                </div>
+              <!-- <span id="burguer"  class="material-symbols-outlined" onclick="clickMenu()">
+                    drag_handle
+                </span> -->
+                <div class="mobile-menu"> 
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+                
             </div>
-            <nav class="topicos">
-                <ul class="topicos_item">
+            <nav class="topicos" id="topicos_burguer"> 
+                <ul class="topicos_item" >
                     <li>
                         <a class="fonte_top" href="https://nubank.com.br/">Pagina Inicial</a>
                     </li>
@@ -49,7 +60,7 @@
         </div>
         <nav>
             <ul>
-                <li class="login">
+                <li class="login" id="login">
                     <a class="login_letra" href="https://app.nubank.com.br/#/login">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
                 </li>
             </ul>
@@ -530,7 +541,20 @@
 
     </div>
 </footer>
+    <script> 
+    
+    </script>
 
+
+   <!-- <script>
+        function clickMenu() {
+            if (topicos_burguer.style.display == 'flex'){
+                topicos_burguer.style.display = 'none'
+            } else {
+                topicos_burguer.style = 'flex'
+            }
+        }
+    </script> -->
 
     
 </body>

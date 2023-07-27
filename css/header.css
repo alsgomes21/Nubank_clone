@@ -45,7 +45,8 @@
     text-decoration: none;
     color: black;
     font-weight: 200;
-    font-size: 20px;    
+    font-size: 20px;
+    gap: 8vw;    
 }
 
 .login_letra {
@@ -54,6 +55,13 @@
     font-size: 20px;
     font-weight: 500;
 }
+
+
+#burguer {
+    display: none;
+    
+}
+
 
 @media screen and (max-width: 576px) {
     
@@ -64,6 +72,7 @@
         
         flex-direction: column;
     }
+
     #cabecalho {
         align-items: center;
         position:relative;
@@ -73,11 +82,42 @@
     }
     .cabecalho_central {
         flex-direction: column;
-        height: 220px;
-    }
-    .topicos_item{
-        flex-direction: column;
+        height: 40vh;
+        width: 100%;      
     }
 
+    .topicos_item{
+        flex-direction: column;
+        display: flex;
+    }
+
+    .login_letra {
+        display: flex;
+        padding-top: 3vw;
+    }
+    
+    #burguer {
+        color: black;
+        cursor: pointer;
+        display: flex;
+    }
+    
+    .cab_mobile_flex{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .mobile-menu div {
+        display: flex;
+        width: 32px;
+        height: 2px;
+        background: black;
+        margin: 8px
+    }
+    .cabecalho {
+        width: 100%;
+    }   
 
 }
