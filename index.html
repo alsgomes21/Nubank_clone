@@ -23,16 +23,16 @@
 </head>
 <body>
 <header id="cabecalho">
-    <div class="cabecalho_central">
+    <div class="cabecalho_central" id="cabecalho_escondido">
         <div class="cab2">
             <div class="cab_mobile_flex">
                 <div class="logo">
                     <img class="nu_logo" src="./imagens/nubank-logo.png" alt="logo">
                 </div>
-              <!-- <span id="burguer"  class="material-symbols-outlined" onclick="clickMenu()">
+              <!-- <span id="burguer"  class="material-symbols-outlined" ">
                     drag_handle
                 </span> -->
-                <div class="mobile-menu"> 
+                <div class="mobile-menu" onclick="clickMenu()"> 
                     <div class="line1"></div>
                     <div class="line2"></div>
                 </div>
@@ -546,15 +546,33 @@
     </script>
 
 
-   <!-- <script>
+   <script>
         function clickMenu() {
-            if (topicos_burguer.style.display == 'flex'){
+            var topicos_burguer = document.getElementById("topicos_burguer")
+            console.log(topicos_burguer.style.display)
+            if (topicos_burguer.style.display == 'block'){
                 topicos_burguer.style.display = 'none'
             } else {
-                topicos_burguer.style = 'flex'
+                topicos_burguer.style.display = 'block'
             }
+            var login = document.getElementById("login")
+
+            if (login.style.display == 'block'){
+                login.style.display = 'none'
+            } else {
+                login.style.display = 'block'
+            }
+
+            var cabecalho_escondido = document.getElementById("cabecalho_escondido")
+
+            if (cabecalho_escondido.style.height == '38vh'){
+                cabecalho_escondido.style.height = '3vh'
+            } else {
+                cabecalho_escondido.style.height = '38vh'
+            }
+            
         }
-    </script> -->
+    </script>
 
     
 </body>

@@ -49,13 +49,16 @@
     gap: 8vw;    
 }
 
+.login {
+    display: flex;
+}
+
 .login_letra {
     text-decoration: none;
     color: rgb(130, 10, 209);
     font-size: 20px;
     font-weight: 500;
 }
-
 
 #burguer {
     display: none;
@@ -67,10 +70,12 @@
     
     .cab2 {
         display: flex;
-        
+
         justify-content: center;
         
         flex-direction: column;
+        width: 98%;
+        padding-right: 10px;
     }
 
     #cabecalho {
@@ -82,13 +87,21 @@
     }
     .cabecalho_central {
         flex-direction: column;
-        height: 40vh;
+        height: 3vh;
         width: 100%;      
     }
 
     .topicos_item{
         flex-direction: column;
         display: flex;
+    }
+
+    #topicos_burguer {
+        display: none;
+    }
+
+    .login {
+        display: none;
     }
 
     .login_letra {
